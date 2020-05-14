@@ -1,0 +1,85 @@
+body {
+	background-color: #5286C1;
+	font-family: "calibri", "arial", sans-serif;
+}
+#logo {
+	margin: 20px 20px 20px 50px;
+	display: inline-block;
+	color: white;
+}
+#logo p {
+	display: inline;
+	line-height: 40px;
+	font-size: 40px;
+	vertical-align: top;
+}
+header img {
+	height: 40px;
+}
+nav {
+	background-color: #4371A3;
+	margin:  10px;
+	padding: 5px;
+	width: 790px;
+}
+nav a {
+	text-decoration: none;
+	color: white;
+	margin:  5px;
+}
+nav a:last-child {
+	float: right;
+}
+.content {
+	background-color: #5A8BC4;
+}
+.img-wrapper {
+	margin: 10px;
+	position: relative;
+}
+.img-wrapper img:nth-child(1) {
+	position: absolute;
+	width: 150px;
+	top: 0;
+	left: 0;
+}
+.img-wrapper img:nth-child(2) {
+	position: absolute;
+	width: 300px;
+	top: 0;
+	left: 160px;
+}
+.img-wrapper img:nth-child(3) {
+	position: absolute;
+	width: 150px;
+	top: 0;
+	left: 480px;
+}
+.img-wrapper img:nth-child(4) {
+	position: absolute;
+	width: 150px;
+	top: 0;
+	left: 640px;
+}
+.img-wrapper img:nth-child(5) {
+	position: absolute;
+	width: 150px;
+	top: 120px;
+	left: 160px;
+}
+.img-wrapper img:nth-child(6) {
+	position: absolute;
+	width: 310px;
+	top: 120px;
+	left: 320px;
+}
+.article {
+	position: absolute;
+	top: 380px;
+}
+.article .title {
+	float: left;
+}
+.article .text {
+	float: left;
+}
